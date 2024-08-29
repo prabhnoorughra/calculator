@@ -10,7 +10,7 @@ body {
     align-items: center;
     height: 100vh;
     width: 100vw;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(100, 100, 100, 1);
 }
 
 #calculator {
@@ -32,6 +32,26 @@ button {
     font-size: 3.3rem;
     font-weight: normal;
     cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(120, 120, 120);
+}
+
+button:active {
+    background-color: rgb(160, 160, 160);
+}
+
+.op {
+    background: rgba(255, 130, 0, 1);
+}
+
+.op:hover {
+    background: rgb(255, 170, 0);
+}
+
+.op:active {
+    background: rgb(255, 190, 0);
 }
 
 #buttons {
